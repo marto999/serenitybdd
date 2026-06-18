@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.targets.Target;
 public class LoginPage {
     public static Target INPUT_USERNAME=Target.the("username input").located(By.id("username"));
     public static Target INPUT_PASSWORD=Target.the("username input").located(By.id("password"));
-    public static Target BUTTON_LOG_IN=Target.the("username input").located(By.xpath("//button[contains(text(),'Iniciar sesión')]"));
+    public static Target BUTTON_LOG_IN=Target.the("username input").located(By.xpath("//button[@type='submit')]"));
 
 
 }
