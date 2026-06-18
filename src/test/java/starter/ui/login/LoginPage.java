@@ -1,0 +1,14 @@
+package starter.ui.login;
+
+import net.serenitybdd.core.annotations.findby.By;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.targets.Target;
+
+public class LoginPage {
+    public static Target INPUT_USERNAME=Target.the("username input").located(By.id("username"));
+    public static Target INPUT_PASSWORD=Target.the("username input").located(By.id("password"));
+    public static Target BUTTON_LOG_IN=Target.the("username input").located(By.xpath("//button[contains(text(),'Iniciar sesión')]"));
+
+
+}
